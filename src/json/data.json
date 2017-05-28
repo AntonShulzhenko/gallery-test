@@ -1,0 +1,20 @@
+{
+  "pageTitle": "Gallery Before After",
+  "items": [
+    {
+      "before": "img/color.jpg",
+      "after": "img/bw.jpg",
+      "active": "is-active"
+    },
+    {
+      "before": "img/im-color.jpg",
+      "after": "img/im-bw.jpg",
+      "active": ""
+    },
+    {
+      "before": "img/sw-color.jpg",
+      "after": "img/sw-pink.jpg",
+      "active": ""
+    }
+  ]
+}

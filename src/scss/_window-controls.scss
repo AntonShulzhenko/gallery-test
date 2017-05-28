@@ -1,0 +1,24 @@
+.window-controls {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 60px;
+  height: 100%;
+  margin-left: 10px;
+  margin-right: 14px;
+  &__item {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    cursor: pointer;
+    &.close {
+      background-color: #f75e51;
+    }
+    &.toggle {
+      background-color: #fbbe00;
+    }
+    &.resize {
+      background-color: #42ca35;
+    }
+  }
+}

@@ -1,0 +1,48 @@
+doctype
+html(lang="ru")
+  head
+    meta(charset="utf-8")
+    meta(http-equiv="X-UA-Compatible" content="IE=edge")
+    meta(name="viewport" content="width=device-width, initial-scale=1")
+    meta(name="format-detection" content="telephone=no")
+    meta(name="description" content="Test Projector")
+      
+    title= pageTitle
+    
+    link(rel="stylesheet" href="css/normalize.css")
+    link(rel="stylesheet" href="css/main.css")
+    
+  body
+    .gallery
+      .gallery__header
+        .gallery__header-left
+          .window-controls
+            span.window-controls__item.close
+            span.window-controls__item.resize
+            span.window-controls__item.toggle
+                  
+          button.btn.btn_load + Load Photo
+          
+          span.gallery__text.text-green FIT
+          span.gallery__text 100%
+          
+        .gallery__header-right
+      
+      .gallery__body
+        .gallery__container
+          .gallery__line
+            
+          .gallery__strip
+            each item in items
+              div(class="gallery__item " + item.active)
+                .gallery__before
+                  img(src=`${item.before}`)
+                    
+                .gallery__after
+                  img(src=`${item.after}`)
+
+      .gallery__footer
+        .gallery__film-strip
+        
+    
+  script(src="js/main.js")
