@@ -1,0 +1,56 @@
+.tools {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 100%;
+
+  &__views {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    &-item {
+      margin: 0 5px;
+    }
+  }
+
+  &__cut {
+    margin: 0 80px 0 44px;
+  }
+
+  &__btn-set {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 110px;
+
+    .fb{
+      width: 24px;
+      height: 24px;
+      padding: 0;
+      border-radius: 2px;
+      background-color: #4f6086;
+      font-size: 14px;
+      line-height: 24px;
+      color: #a3acc0;
+      text-align: center;
+      &:hover {
+        background-color: lighten(#4f6086, 5%);
+      }
+    }
+
+    .export {
+      width: 50px;
+      height: 24px;
+      background-color: #5f6472;
+      box-sizing: border-box;
+      font-size: 10px;
+      color: #a4a5ad;
+      text-align: center;
+      text-decoration: none;
+      &:hover {
+        background-color: lighten(#5f6472, 5%);
+      }
+    }
+  }
+
+}

@@ -121,3 +121,6 @@ $RECYCLE.BIN/
 # Folders
 design
 public
+
+# Files
+yarn.lock

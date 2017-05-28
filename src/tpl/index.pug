@@ -5,7 +5,7 @@ html(lang="ru")
     meta(http-equiv="X-UA-Compatible" content="IE=edge")
     meta(name="viewport" content="width=device-width, initial-scale=1")
     meta(name="format-detection" content="telephone=no")
-    meta(name="description" content="Test Projector")
+    meta(name="description" content="Gallery Before After")
       
     title= pageTitle
     
@@ -27,6 +27,24 @@ html(lang="ru")
           span.gallery__text 100%
           
         .gallery__header-right
+                
+          .tools
+            .tools__views
+              a.tools__views-item(href="#")
+                img(src="img/view.jpg", alt="")
+              a.tools__views-item(href="#")
+                img(src="img/ba.jpg", alt="")
+            
+            .tools__cut
+              a.cut(href="#")
+                img(src="img/cut.jpg", alt="")
+                  
+            .tools__btn-set
+              a.upload(href="#")
+                img(src="img/upload.jpg", alt="")
+              a.fb.btn(href="#")
+                i.fa.fa-facebook
+              a.export.btn(href="#") Export
       
       .gallery__body
         .gallery__container
@@ -42,6 +60,8 @@ html(lang="ru")
                   img(src=`${item.after}`)
 
       .gallery__footer
+        .gallery__footer-tools
+          
         .gallery__film-strip
         
     

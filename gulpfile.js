@@ -112,7 +112,8 @@ gulp.task('lint', () => {
 gulp.task('static:fonts', () => {
   return gulp
     .src([
-      'src/fonts/**/*'
+      'src/fonts/**/*',
+      'node_modules/font-awesome/fonts/*.{woff2,woff}'
     ])
     .pipe(errorHandler())
     .pipe(gulp.dest('public/fonts'));
