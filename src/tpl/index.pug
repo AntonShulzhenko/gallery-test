@@ -27,7 +27,6 @@ html(lang="ru")
           span.gallery__text 100%
           
         .gallery__header-right
-                
           .tools
             .tools__views
               a.tools__views-item(href="#")
@@ -44,7 +43,7 @@ html(lang="ru")
                 img(src="img/upload.jpg", alt="")
               a.fb.btn(href="#")
                 i.fa.fa-facebook
-              a.export.btn(href="#") Export
+              a.export.btn.btn_grey(href="#") Export
       
       .gallery__body
         .gallery__container
@@ -61,8 +60,18 @@ html(lang="ru")
 
       .gallery__footer
         .gallery__footer-tools
-          
-        .gallery__film-strip
+          button.gallery__toggle-btn
+            i.fa.fa-angle-down(aria-hidden="true")
+              
+          .image-controls
+            span.gallery__text Realisitic
+            .image-controls__slider
+              span
+            span.gallery__text Vivid
+            button.btn.btn_grey Apply to All
+        
+        .gallery__minis
+          .gallery__film-strip
         
     
   script(src="js/main.js")

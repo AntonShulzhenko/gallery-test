@@ -15,6 +15,26 @@
       "before": "img/sw-color.jpg",
       "after": "img/sw-pink.jpg",
       "active": ""
+    },
+    {
+      "before": "img/bridge-color.jpg",
+      "after": "img/bridge-bw.jpg",
+      "active": ""
+    },
+    {
+      "before": "img/norge-color.jpg",
+      "after": "img/norge-bw.jpg",
+      "active": ""
+    },
+    {
+      "before": "img/field-color.jpg",
+      "after": "img/field-bw.jpg",
+      "active": ""
+    },
+    {
+      "before": "img/winter-color.jpg",
+      "after": "img/winter-bw.jpg",
+      "active": ""
     }
   ]
 }
